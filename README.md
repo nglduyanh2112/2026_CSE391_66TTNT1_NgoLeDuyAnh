@@ -41,10 +41,15 @@ Rèn luyện tư duy và kỹ năng lập trình web thực tế
 📂 Nội dung Repository
 
 📁 html/ – Các bài tập và thực hành HTML
+
 📁 css/ – Styling, layout và thiết kế giao diện
+
 📁 js/ – Các bài tập JavaScript
+
 📁 assets/ – Hình ảnh và tài nguyên sử dụng trong dự án
+
 📁 result/ – Kết quả sau khi hoàn thành bài thực hành
+
 📄 README.md – File giới thiệu repository
 
 🚀 Mục tiêu cá nhân
@@ -56,4 +61,5 @@ Nâng cao kỹ năng lập trình Web
 Xây dựng nền tảng vững chắc cho các dự án thực tế sau này
 
 ✨ Cảm ơn bạn đã ghé thăm repository của mình!
+
 📫 Rất vui nếu được kết nối, giao lưu và học hỏi thêm từ mọi người.
