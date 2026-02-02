@@ -2,8 +2,11 @@
 
 🧑‍💻 Thông tin cá nhân
 Họ tên: Ngô Lê Duy Anh
+
 Trường: Trường Đại học Thủy Lợi
+
 Ngành: Trí tuệ nhân tạo và Khoa học dữ liệu
+
 Môn học: Lập trình Web (CSE391)
 
 📖 Giới thiệu
