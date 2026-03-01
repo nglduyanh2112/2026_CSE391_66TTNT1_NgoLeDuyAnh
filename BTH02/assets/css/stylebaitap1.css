@@ -1,0 +1,50 @@
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 800px;
+    background-color: white;
+    border: 2px solid black;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+h2 {
+    margin-bottom: 20px;
+} 
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+textarea {
+    flex: 1;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.submit-button {
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(100, 193, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(100, 193, 255, 0.8);
+}

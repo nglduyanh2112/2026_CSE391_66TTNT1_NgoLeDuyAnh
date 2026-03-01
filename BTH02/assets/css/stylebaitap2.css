@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand';
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 20px;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    color: rgb(252, 241, 94);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(252, 241, 94);
+    font-size: 16px;
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 94vh;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 100%;
+    background-image: url("../images/ocean.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 40px 10px 40px;
+    background-color: #00000098;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+
+#hero-content a {
+    background-color: rgb(252, 241, 94);
+    color: black;
+    padding: 10px 20px;
+    font-size: small;
+    font-weight: bold;
+    border-radius: 5px ;
+}
+
+#highlights {
+    background-color: rgb(172, 245, 255);
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    flex: 1;
+}
+
+h2 {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 10px 10px;
+}
+
+#destinations {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    list-style-type: none;
+}
+
+img {
+    width: 450px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #333333;
+    color: rgb(252, 241, 94);
+    height: 50px;
+}
+
+footer ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+}
+
+#highlights p {
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-family: 'Raleway';
+}
+
+#page-logo a{
+    font-size: 24px;
+    color: rgb(252, 241, 94);
+    font-family:  'Oleo Script';
+    font-weight: 700;
+}

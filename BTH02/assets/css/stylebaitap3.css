@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: monospace;
+  background-color: #f3f3f3;
+}
+
+.wrapper {
+  width: 1100px;
+  margin: 80px auto;
+}
+
+.wrapper h1 {
+  text-align: center;
+  margin-bottom: 60px;
+  font-weight: normal;
+}
+
+/* FLEX 2 CỘT */
+.content {
+  display: flex;
+  gap: 60px;
+}
+
+/* CARD BÊN TRÁI */
+.card {
+  width: 35%;
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.card p {
+  color: #777;
+  line-height: 1.6;
+}
+
+.card h4 {
+  margin-top: 30px;
+}
+
+.card span {
+  color: #3f72af;
+  font-size: 14px;
+}
+
+/* TEXT BÊN PHẢI */
+.text {
+  width: 65%;
+}
+
+.text p {
+  line-height: 1.8;
+  color: #555;
+}
+
+.bold {
+  font-weight: bold;
+}
