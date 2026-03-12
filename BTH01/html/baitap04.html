@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Form - Table Layout</title>
+    <link rel="stylesheet" href="baitap04.css">
+    <style>
+        /* Thêm một chút CSS để bảng trông gọn gàng hơn */
+        table { width: 100%; border-collapse: collapse; }
+        td { padding: 8px; vertical-align: top; }
+        .label-column { width: 200px; font-weight: bold; }
+        h2 { margin-top: 20px; }
+    </style>
+</head>
+
+<body>
+    <form>
+        <h2>Basic Info</h2>
+        <hr>
+        <table>
+            <tr>
+                <td class="label-column">Employee ID 9</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><label for="lname">Last Name</label></td>
+                <td><input type="text" id="lname" name="lname" placeholder="Enter last name"></td>
+            </tr>
+            <tr>
+                <td><label for="fname">First Name</label></td>
+                <td><input type="text" id="fname" name="fname" placeholder="Enter first name"></td>
+            </tr>
+            <tr>
+                <td><label>Gender</label></td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="Male"> <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="Female"> <label for="female">Female</label><br>
+                    <input type="radio" id="XXX" name="gender" value="XXX"> <label for="XXX">XXX</label><br>
+                    <input type="radio" id="ZZZ" name="gender" value="ZZZ" checked> <label for="ZZZ">ZZZ</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="title">Title</label></td>
+                <td><input type="text" id="title" name="title" value="Sales Representative"></td>
+            </tr>
+            <tr>
+                <td><label for="suffix">Suffix</label></td>
+                <td><input type="text" id="suffix" name="suffix" value="Ms."></td>
+            </tr>
+            <tr>
+                <td><label for="birthdate">BirthDate</label></td>
+                <td><input type="date" id="birthdate" name="birthdate" value="1969-07-02"></td>
+            </tr>
+            <tr>
+                <td><label for="hiredate">HireDate</label></td>
+                <td><input type="date" id="hiredate" name="hiredate" value="1994-11-15"></td>
+            </tr>
+            <tr>
+                <td><label for="ssn">SSN # (if applicable)</label></td>
+                <td><input type="text" id="ssn" name="ssn"></td>
+            </tr>
+            <tr>
+                <td><label for="reportsto">Reports To</label></td>
+                <td>
+                    <select id="reportsto" name="reportsto">
+                        <option value="1">Buchanan</option>
+                        <option value="2">Muller</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+
+        <h2>Contact Info</h2>
+        <hr>
+        <table>
+            <tr>
+                <td class="label-column"><label for="email">Email</label></td>
+                <td><input type="email" id="email" name="email" placeholder="name@example.com"></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address</label></td>
+                <td><input type="text" id="address" name="address" value="7 Houndstooh Rd."></td>
+            </tr>
+            <tr>
+                <td><label for="city">City</label></td>
+                <td><input type="text" id="city" name="city" value="London"></td>
+            </tr>
+            <tr>
+                <td><label for="region">Region</label></td>
+                <td><input type="text" id="region" name="region"></td>
+            </tr>
+            <tr>
+                <td><label for="postalcode">Postal Code</label></td>
+                <td><input type="text" id="postalcode" name="postalcode" value="WG2 7LT"></td>
+            </tr>
+            <tr>
+                <td><label for="country">Country</label></td>
+                <td>
+                    <input list="country-list" name="country">
+                    <datalist id="country-list">
+                        <option value="Russian Federation">
+                        <option value="USA">
+                        <option value="France">
+                        <option value="Germany">
+                        <option value="Japan">
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="ushomephone">US Home Phone</label></td>
+                <td><input type="tel" id="ushomephone" name="ushomephone" value="(234) 234-2342"></td>
+            </tr>
+            <tr>
+                <td><label for="photo">Photo</label></td>
+                <td><input type="file" id="photo" name="photo"></td>
+            </tr>
+        </table>
+
+        <h2>Optional Info</h2>
+        <hr>
+        <table>
+            <tr>
+                <td class="label-column"><label for="notes">Notes</label></td>
+                <td><textarea id="notes" name="notes" rows="4" cols="50">Anne has a BA degree in English from St. Lawrence College. She is fluent in French and German.ZZZ</textarea></td>
+            </tr>
+            <tr>
+                <td><label>Preferred Shift</label></td>
+                <td>
+                    <input type="checkbox" id="ps1" name="preferredshift"> <label for="ps1">Regular</label><br>
+                    <input type="checkbox" id="ps2" name="preferredshift2" checked> <label for="ps2">Gravy Yard</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="active">Active?</label></td>
+                <td><input type="checkbox" id="active" name="active" checked></td>
+            </tr>
+            <tr>
+                <td><label for="areyouhuman">Are you human?</label></td>
+                <td>
+                    <p style="margin:0"><b>TIDAWO</b></p>
+                    <p style="font-size: 0.8em; color: gray; margin: 5px 0;">Click to change</p>
+                    <input type="text" id="areyouhuman" name="areyouhuman">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <hr>
+                    <input type="submit" value="Submit">
+                    <input type="button" value="Cancel">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
