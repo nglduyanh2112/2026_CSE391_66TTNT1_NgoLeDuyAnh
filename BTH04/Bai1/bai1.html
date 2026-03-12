@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản Lý Điểm Sinh Viên</title>
+    <link rel="stylesheet" href="stylebai1.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Quản Lý Điểm Sinh Viên</h2>
+
+        <div class="input-group">
+            <input type="text" id="txtName" placeholder="Nhập họ tên...">
+            <input type="number" id="txtScore" placeholder="Điểm (0-10)">
+            <button id="btnAdd">Thêm</button>
+        </div>
+
+        <div class="input-group">
+            <input type="text" id="txtSearch" placeholder="Tìm kiếm theo tên...">
+            <select id="selectRankFilter">
+                <option value="all">Tất cả</option>
+                <option value="Giỏi">Giỏi</option>
+                <option value="Khá">Khá</option>
+                <option value="Trung bình">Trung bình</option>
+                <option value="Yếu">Yếu</option>
+            </select>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Họ tên</th>
+                    <th id="thScore" style="cursor: pointer; user-select: none;">Điểm <span id="scoreSortIndicator"></span></th>
+                    <th>Xếp loại</th>
+                    <th>Thao tác</th>
+                </tr>
+            </thead>
+            <tbody id="studentTableBody">
+            </tbody>
+        </table>
+
+        <div class="summary" id="summaryInfo">
+            Tổng số sinh viên: 0 | Điểm trung bình: 0
+        </div>
+    </div>
+
+    <script src="dom1.1.js"></script>
+</body>
+
+</html>
